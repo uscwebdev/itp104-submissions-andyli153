@@ -10,45 +10,99 @@
             }
 
             img {
-                height: 200px;
-                width: auto;
+                width: 300px;
+                height: auto;
+            }
+
+            .main {
+                width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }     
+            
+            .section1 {
+                margin: 10px;
+                padding: 10px;
+            }
+        
+            .section2 {
+                display: flex;
+                margin: 10px;
+            }
+
+            .left {
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                margin: 10px;
+            }
+            
+            .right {
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                margin: 10px;
+            }
+
+            .section3 {
+                display: flex;
+                margin: 10px;
             }
         </style>
     </head>
-    <body> 
-        <h1>Andy Li</h1>
-        
-        <a href="https://mail.google.com/mail/u/0/#inbox">andyli@usc.edu</a>
+    <body>
+        <div class="main">
+            <div class="section1">
+                <h1>Andy Li</h1>
+            
+                <a href="https://mail.google.com/mail/u/0/#inbox">andyli@usc.edu</a>
+            </div>
 
-        <p>Favorite Color: <strong><em>Purple</em></strong></p>
+            <hr>
 
-        <p>Favorite Website: <a href="https://www.youtube.com/">Youtube</a></p>
+            <div class="section2">
+                <div class="left">
+                    <p>Favorite Color: <strong><em>Purple</em></strong></p>
 
-        <p>Favorite Activity:</p>
+                    <p>Favorite Website: <a href="https://www.youtube.com/">Youtube</a></p>
+    
+                    <p>Favorite Activity:</p>
+    
+                    <img src="img/soccerpic.webp" alt="Soccer Pic">
+                </div>
+               
+                <div class="right">
+                    <p>Fall 2023 Schedule:</p>
+                    <ul>
+                        <li>ITP 104: Introduction to Web Development</li>
+                        <li>ITP 449: Applications of Machine Learning</li>
+                        <li>BUAD 472: The Science of Peak Performance</li>
+                        <li>BUAD 473: Sales Mindset for Entrepreneurs</li>
+                        <li>BUAD 425: Introduction to Business Analytics</li>
+                        <li>DSO 424: Business Forecasting</li>
+                        <li>PR 487: multimedia PR Content: Introduction to Audio/Video Tools</li>
+                    </ul> 
+                </div>
+            </div>
 
-        <img src="img/soccerpic.webp" alt="Soccer Pic">
+            <hr>
 
-        <p>Fall 2023 Schedule:</p>
-        <ul>
-            <li>ITP 104: Introduction to Web Development</li>
-            <li>ITP 449: Applications of Machine Learning</li>
-            <li>BUAD 472: The Science of Peak Performance</li>
-            <li>BUAD 473: Sales Mindset for Entrepreneurs</li>
-            <li>BUAD 425: Introduction to Business Analytics</li>
-            <li>DSO 424: Business Forecasting</li>
-            <li>PR 487: multimedia PR Content: Introduction to Audio/Video Tools</li>
-        </ul>
-
-        <p>Assignments:</p>
-        <ul>
-            <li><a href="assignment_02/interests.html">Assignment 2: Interests Page</a></li>
-            <li><a href="assignment_01/resume.html">Assignment 1: Web Resume</a></li>
-        </ul>
-
-        <p>Labs:</p>
-        <ul>
-            <li><a href="lab_03/resume.html">Lab 3: Updated Resume</a></li>
-            <li><a href="index.html">Lab 2: Student Page</a></li>
-        </ul>
+            <div class="section3">
+                <div class="left">
+                    <p>Assignments:</p>
+                    <ul>
+                        <li><a href="assignment_02/interests.html">Assignment 2: Interests Page</a></li>
+                        <li><a href="assignment_01/resume.html">Assignment 1: Web Resume</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <p>Labs:</p>
+                    <ul>
+                        <li><a href="lab_03/resume.html">Lab 3: Updated Resume</a></li>
+                        <li><a href="index.html">Lab 2: Student Page</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
     </body>
 </html>
