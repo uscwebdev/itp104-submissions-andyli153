@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback Form</title>
+
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            h1 {
+                margin: 0px;
+                padding: 5px;
+            }
+            
+            .form-row {
+                margin: 10px 0px;
+                display: flex;
+                align-items: center;
+            }
+
+            .left-col {
+                width: 250px;
+            }
+
+            .right-col {
+                width: 400px;
+            }
+
+            .textboxes {
+                width: 350px;
+            }
+            
+            button {
+                margin: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Therapy Form</h1>
+        <div>
+            <form action="confirmation.html">
+                <div class="form-row">
+                    <div class="left-col">
+                        <label for="name-id">Name:</label>
+                    </div>
+                    <div class="right-col">
+                        <input type="text" id="name-id" class="textboxes" placeholder="Tommy Trojan">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="left-col">
+                        <label for="email-id">Email:</label>
+                    </div>
+                    <div class="right-col">
+                        <input type="email" id="email-id" class="textboxes" placeholder="ttrojan@usc.edu">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="left-col">
+                        <label for="phone-id">Phone #:</label>
+                    </div>
+                    <div class="right-col">
+                        <input type="tel" id="phone-id" class="textboxes" placeholder="111-111-1111">
+                    </div>        
+                </div>
+                <div class="form-row">
+                    <div class="left-col">
+                        <label for="social-id">IG Handle:</label>
+                    </div>
+                    <div class="right-col">
+                        <input type="text" id="social-id" class="textboxes" placeholder="@tommytrojan">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="left-col">
+                        <label>Preferred Communication:</label>
+                    </div>
+                    <div class="right-col">
+                        <label>
+                            <input type="checkbox"> Email
+                        </label>
+                        <label>
+                            <input type="checkbox"> Phone
+                        </label>
+                        <label>
+                            <input type="checkbox"> Instagram
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="left-col">
+                        <label>How effective was therapy? (1-7):</label>
+                    </div>
+                    <div class="right-col">
+                        <label>
+                            <input type="radio" name="ratings"> 1
+                        </label>
+                        <label>
+                            <input type="radio" name="ratings"> 2 
+                        </label>
+                        <label>
+                            <input type="radio" name="ratings"> 3
+                        </label>
+                        <label>
+                            <input type="radio" name="ratings"> 4
+                        </label>
+                        <label>
+                            <input type="radio" name="ratings"> 5
+                        </label>
+                        <label>
+                            <input type="radio" name="ratings"> 6
+                        </label>
+                        <label>
+                            <input type="radio" name="ratings"> 7
+                        </label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="left-col">
+                        <label for="percent-id">How frequently did you meet with your therapist?</label>
+                    </div>
+                    <div class="right-col">
+                        <select id="percent-id" class="textboxes">
+                            <option>--Select Frequency--</option>
+                            <option>Daily</option>
+                            <option>Weekly</option>
+                            <option>Bi-weekly</option>
+                            <option>Monthly</option>
+                            <option>Half-Yearly</option>
+                            <option>Yearly</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="left-col">
+                        <label for="comments-id">Comments?</label>
+                    </div>
+                    <div class="right-col">
+                        <textarea id="comments-id" class="textboxes"></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label>
+                        <input type="checkbox"> I accept terms & conditions.
+                    </label>
+                </div>
+                <div class="form-row" id="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
