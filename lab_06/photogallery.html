@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andy Li | Photo Gallery</title>
+
+        <style>
+            #main {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            div p {
+                visibility: hidden;
+                width: 485px;
+                text-align: center;
+            }
+
+            img {
+                width: 485px;
+                height: auto;
+                padding: 2.5px;
+            }
+
+            img:hover + p {
+                visibility: visible;
+            }
+
+            body {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div>
+                <img src="img/barbie.jpeg" alt="barbie">
+                <p><b>Barbie Day!</b></p>
+            </div>
+            <div>
+                <img src="img/cuddle.jpeg" alt="cuddle">
+                <p><b>Group Cuddle Session</b></p>
+            </div>  
+            <div>
+                <img src="img/tacobell.jpeg" alt="tacobell">
+                <p><b>Taco Bell Reunion</b></p>
+            </div>
+            <div>
+                <img src="img/deadatbeach.jpeg" alt="deadatbeach">
+                <p><b>Dying on the Beach</b></p>
+            </div> 
+            <div>
+                <img src="img/slander.jpeg" alt="slander">
+                <p><b>First Rave!</b></p>
+            </div>  
+            <div>
+                <img src="img/pineandcrane.jpeg" alt="pineandcrane">
+                <p><b>Pine and Crane Love</b></p>
+            </div>   
+            <div>
+                <img src="img/bayarea.jpeg" alt="bayarea">
+                <p><b>The Bay is Home</b></p>
+            </div>
+            <div>
+                <img src="img/thriftmirror.jpeg" alt="thriftmirror">
+                <p><b>Thrifting Vibes</b></p>
+            </div> 
+            <div>
+                <img src="img/tahoe.jpeg" alt="tahoe">
+                <p><b>Winter Vacation</b></p>
+            </div> 
+        </div>
+    </body>
+</html>
