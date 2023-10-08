@@ -1,0 +1,90 @@
+@font-face {
+    src: url('fonts/BodoniFLF-Roman.ttf');
+    font-family: "Bodoni";
+}
+
+body {
+    background-color: darkgray;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    font-size: x-large;
+    background-color: beige;
+    text-align: center;
+    background-position: center;
+    color: #FFF;
+    text-shadow: 0px 0px 10px #000;
+}
+
+h1 {
+    margin: 0px;
+    font-family: "Bodoni", sans-serif;
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#menubar {
+     background-color: black;
+     color: white;
+}
+
+#menubar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menubar li {
+    width: 225px;
+    text-align: center;
+    position: relative;
+}
+
+#menubar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
+
+#menubar a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+#top-menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#top-menu ul {
+    position: absolute;
+    display: none;
+}
+
+#menubar li:hover > ul {
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+.main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
