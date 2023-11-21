@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chaotic 3</title>
+
+        <meta name="description" content="Welcome! This is Chaotic 3, USC's premier competitive hiphop dance team. ">
+
+        <style>
+            .header {
+                height: 100px;
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+                display: flex;
+                justify-content: space-between;
+                background-color: lightblue;
+                position: fixed;
+            }
+
+            #title {
+                margin-left: 200px;
+                margin-right: 200px;
+                line-height: 100px;
+                font-size: 50px;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            .buttons {
+                display: flex;
+                height: 100px;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .buttons li {
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                margin-top: 25px;
+                margin-right: 10px;
+                border-radius: 30%;
+                border: 1px solid black;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .video {
+                background-color: lightcyan;
+                height: 1000px;
+                line-height: 1000px;
+                background-image: url("img/c3.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            .video h2 {
+                text-align: center;
+                margin: 0px;
+                font-size: 150px;
+                background-position: center;
+                color: #FFF;
+                text-shadow: 0px 0px 10px #000;
+            }
+
+            #section2 h2 {
+                text-align: center;
+                font-size: 150px;
+                margin: 0px;
+                padding: 100px;
+                background-color: lightblue;
+            }
+
+            .about {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .about > .left {
+                padding: 50px;
+            }
+
+            .left {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+            #mission, #slogan, #sub-about {
+                border: 1px solid black;
+                padding: 10px;
+                margin-bottom: 60px;
+                background-color: lightblue;
+            }
+
+            .right {
+                padding: 50px;
+            }
+
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div id="title">
+                <strong><a href="homepage.html">Chaotic 3</a></strong>
+            </div>
+
+            <div class="sections">
+                <ul class="buttons">
+                    <li><a href="#section2"><div id="about">About</div></a></li>
+                    <li><a href=""><div id="team">Team</div></a></li>
+                    <li><a href=""><div id="history">History</div></a></li>
+                    <li><a href=""><div id="contact">Contact</div></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="video">
+            <h2>Chaotic 3</h2>
+        </div>
+
+        <a id="section2">
+            <h2>About</h2>
+            <script>
+                document.querySelector('meta[name="description"]').setAttribute("content", "Chaotic 3: Unleashing creativity, embracing culture, building community. We dance to inspire, innovate, and connect.")
+            </script>
+        </a>
+            
+        <div class="about">
+            <div class="left">
+                <div id="mission">
+                    <h3>Mission Statement</h3>
+                    
+                    Chaotic 3: Unleashing creativity, embracing culture, building community. We dance to inspire, innovate, and connect.
+                    Join us in celebrating the art of movement, where every step contributes to a vibrant and inclusive dance culture.
+                </div>
+
+                <div id="slogan">
+                    <h3>Slogan</h3>
+
+                    est. 1988 "Dancing is fun, cleaning is easy."
+                </div>
+
+                <div id="sub-about">
+                    <h3>What is C3?</h3>
+
+                    Chaotic 3 is the premier and oldest competitive collegiate hip-hop dance team based at the University of Southern California, with 20+ years of history. 
+                    Originally founded as an artistic outlet for members of the Chinese American Student Association, Chaotic 3 has evolved into a well-known team that strives to foster the passion for dance from new and veteran dancers alike. 
+                    Through exhibition and competition performances on USC’s campus and around Southern California, they hope to continue to be influenced by the best while maintaining the spirit that is Chaotic 3.
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="img/c3logo.jpg.JPG" alt="Chaotic 3">
+            </div>
+        </div>
+    </body>
+</html>
