@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andy Li | Photo Gallery</title>
+
+        <style>
+            #main {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            div p {
+                visibility: hidden;
+                width: 455px;
+                text-align: center;
+            }
+
+            img {
+                width: 455px;
+                height: auto;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            img:hover + p {
+                visibility: visible;
+            }
+
+            body {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div>
+                <img id="barbie" src="img/barbie.jpeg" alt="barbie">
+                <p><b>Barbie Day!</b></p>
+            </div>
+            <div>
+                <img id="cuddle" src="img/cuddle.jpeg" alt="cuddle">
+                <p><b>Group Cuddle Session</b></p>
+            </div>  
+            <div>
+                <img id="tacobell" src="img/tacobell.jpeg" alt="tacobell">
+                <p><b>Taco Bell Reunion</b></p>
+            </div>
+            <div>
+                <img id="deadatbeach" src="img/deadatbeach.jpeg" alt="deadatbeach">
+                <p><b>Dying on the Beach</b></p>
+            </div> 
+            <div>
+                <img id="slander" src="img/slander.jpeg" alt="slander">
+                <p><b>First Rave!</b></p>
+            </div>  
+            <div>
+                <img id="pineandcrane" src="img/pineandcrane.jpeg" alt="pineandcrane">
+                <p><b>Pine and Crane Love</b></p>
+            </div>   
+            <div>
+                <img id="bayarea" src="img/bayarea.jpeg" alt="bayarea">
+                <p><b>The Bay is Home</b></p>
+            </div>
+            <div>
+                <img id="thriftmirror" src="img/thriftmirror.jpeg" alt="thriftmirror">
+                <p><b>Thrifting Vibes</b></p>
+            </div> 
+            <div>
+                <img id="tahoe" src="img/tahoe.jpeg" alt="tahoe">
+                <p><b>Winter Vacation</b></p>
+            </div> 
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+           
+        <script>
+            $('#barbie').click(function(){
+                $('img').css('border', 'none');
+                $('#barbie').css('border', '5px solid red');
+            });
+            $('#cuddle').click(function(){
+                $('img').css('border', 'none');
+                $('#cuddle').css('border', '5px solid red');
+            });
+            $('#tacobell').click(function(){
+                $('img').css('border', 'none');
+                $('#tacobell').css('border', '5px solid red');
+            });
+            $('#deadatbeach').click(function(){
+                $('img').css('border', 'none');
+                $('#deadatbeach').css('border', '5px solid red');
+            });
+            $('#slander').click(function(){
+                $('img').css('border', 'none');
+                $('#slander').css('border', '5px solid red');
+            });
+            $('#pineandcrane').click(function(){
+                $('img').css('border', 'none');
+                $('#pineandcrane').css('border', '5px solid red');
+            });
+            $('#bayarea').click(function(){
+                $('img').css('border', 'none');
+                $('#bayarea').css('border', '5px solid red');
+            });
+            $('#thriftmirror').click(function(){
+                $('img').css('border', 'none');
+                $('#thriftmirror').css('border', '5px solid red');
+            });
+            $('#tahoe').click(function(){
+                $('img').css('border', 'none');
+                $('#tahoe').css('border', '5px solid red');
+            });
+        </script>
+    </body>
+</html>
