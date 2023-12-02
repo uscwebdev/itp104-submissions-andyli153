@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Welcome to Andy Li's website. Here's some insight into what Andy's life looks like and the project he has been working on.">
+        <title>Andy Li | Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/958eb496ea.js" crossorigin="anonymous"></script>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <strong><a href="andyli.html">ANDY LI</a></strong>
+                    <ul>
+                        <li><a href="andyli.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#life">Life</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, I'm Andy!</h1>
+                    <p>Nice to meet you!</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/andyli.jpeg" alt="Andy Li">
+                    </div>
+                    <div class="about-col-2">
+                        <h1>About Me</h1>
+                        <p>I'm a 4th-year student at the University of Southern California, studying Business Administration
+                            and Applied Analytics.</p>
+                        <br>
+                        <p>Despite having started with a career in finance and accounting, I am in the midst of a transitional period, navigating
+                             and exploring new avenues in more technical industries, like data science, computer science and product management. 
+                             I have a passion for multi-dimensional thinking and stimulating discourse, finding fulfillment in work and in people. 
+                             Ultimately, I seek to help and support the people around me in the ways I know best. 
+                        </p>
+                        <br>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('resume')">Resume</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <div>
+                                <strong>Data Analysis</strong>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Microsoft Excel</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <strong>Data Visualization</strong>
+                                <ul>
+                                    <li>Tableau</li>
+                                    <li>Microsoft Powerpoint</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <strong>Web Development</strong>
+                                <ul>
+                                    <li>HTML/CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <div>
+                                <strong>June 2023</strong>
+                                <ul>
+                                    <li>Accounting Intern at Zhai & Wang, LLP</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <strong>July 2022</strong>
+                                <ul>
+                                    <li>Accounting Intern at Surf Air</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <strong>June 2022</strong>
+                                <ul>
+                                    <li>Venture Intern at Banyan Pacific Capital</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <div>
+                                <strong>January 2021 - May 2024</strong>
+                                <ul>
+                                    <li>BS at University of Southern California</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <strong>August 2016 - May 2020</strong>
+                                <ul>
+                                    <li>HS Diploma at Lynbrook High School</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-contents" id="resume">
+                            <a href="andyliresume.pdf" download class="btn">Resume/CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                document.querySelector('meta[name="description"]').setAttribute("content", "Learn a little more about Andy. Find out what his skills, experience, and education are. Feel free to check out his resume!")
+            </script>
+        </div>
+
+        <div id="life">
+            <div class="container">
+                <div class="row">
+                    <div class="life-left">
+                        <h1>My Life</h1>
+                        <h2>This is my <span>story</span>.</h2>
+                    </div>
+                    <div class="life-right">
+                        <img id="barbie" src="img/barbie.jpeg" alt="barbie">
+                        
+                        <img id="cuddle" src="img/cuddle.jpeg" alt="cuddle">
+                    
+                        <img id="tacobell" src="img/tacobell.jpeg" alt="tacobell">
+                    
+                        <img id="deadatbeach" src="img/deadatbeach.jpeg" alt="deadatbeach">
+                
+                        <img id="slander" src="img/slander.jpeg" alt="slander">
+                                                
+                        <img id="pineandcrane" src="img/pineandcrane.jpeg" alt="pineandcrane">
+                           
+                        <img id="bayarea" src="img/bayarea.jpeg" alt="bayarea">
+                           
+                        <img id="thriftmirror" src="img/thriftmirror.jpeg" alt="thriftmirror">
+                            
+                        <img id="tahoe" src="img/tahoe.jpeg" alt="tahoe">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                document.querySelector('meta[name="description"]').setAttribute("content", "Get some insight into the more casual areas of his life. Here are a series of photos showcasing his friends, family, and experiences!")
+            </script>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        <p><span class="fas fa-paper-plane"></span> andyli@usc.edu</p>
+                        <p><span class="fas fa-phone-square-alt"></span> 408-896-6352</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/andy.li.33821189/"><span class="fab fa-facebook"></span></a>
+                            <a href="https://twitter.com/andyli18"><span class="fab fa-twitter"></span></a>
+                            <a href="https://www.instagram.com/andy_dandylion/"><span class="fab fa-instagram"></span></a>
+                            <a href="https://www.linkedin.com/in/andyli153/"><span class="fab fa-linkedin"></span></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form action=confirmation.html>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" rows="7" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                document.querySelector('meta[name="description"]').setAttribute("content", "Feel free to contact Andy via this website, via phone, or via email. Also, check out his social media on Facebook, Twitter, Instagram, or LinkedIn.")
+            </script>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Andy.</p>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
+</html>
